@@ -93,78 +93,91 @@ border-radius: 0px!important;
 
 
 #home-sec {
-    
-    background: url(../img/home.jpg) no-repeat center center;
-padding: 0;
--webkit-background-size: cover;
-background-size: cover;
-background-attachment: fixed;
-color:#fff;
-
-
-}
-    #home-sec .overlay {
-        padding-top:100px;
-        background:rgba(0, 0, 0, 0.80);
-        min-height:790px;
-    }
- #home-sec .main-img {
-     
-     max-height:200px;
-   border:5px solid rgb(255, 15, 101);
-  content:url('assets/img/ben.jpg');  
-  cursor:pointer;
+    background: url('assets/img/home.jpg') no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
 }
 
-    #home-sec a,#home a:hover {
-        text-decoration:none;
-    }
+#home-sec .overlay {
+    padding-top: 100px;
+    background: rgba(0, 0, 0, 0.80);
+    min-height: 790px;
+}
+
+/* Imagen principal */
+#home-sec .main-img {
+    max-width: 200px; /* Ajusta según necesidad */
+    height: auto;
+    border: 5px solid rgb(255, 15, 101);
+    content: url('assets/img/ben.jpg');  
+    cursor: pointer;
+}
+
+/* Cambia la imagen al pasar el cursor */
+#home-sec .main-img:hover {
+    content: url('assets/img/ex3m.png');
+}
+
+/* Segunda imagen (si es necesaria) */
 #home-sec .main-img-2 {
-     max-height:200px;
-   border:5px solid rgb(255, 15, 101);
-  content:url('assets/img/ben.jpg');  
-  cursor:pointer;
+    max-width: 200px;
+    height: auto;
+    border: 5px solid rgb(255, 15, 101);
+    content: url('assets/img/ben.jpg');  
+    cursor: pointer;
 }
 
+/* Segunda imagen cambia al hover */
+#home-sec .main-img-2:hover {
+    content: url('assets/img/ex3m.png');  
+}
 
 #home-sec h1 {
-font-weight: 900;
-padding: 20px 0px 0px 0px;
+    font-weight: 900;
+    padding: 20px 0px 0px 0px;
 }
+
 #home-sec h2 {
-font-weight: 400;
-padding: 0px 0px 30px 0px;
-color:#fff;
+    font-weight: 400;
+    padding: 0px 0px 30px 0px;
+    color: #fff;
 }
+
 #home-sec h3 {
-padding: 5px 0px;
-color:#fff;
-font-weight:800;
+    padding: 5px 0px;
+    color: #fff;
+    font-weight: 800;
 }
-    #home-sec small {
-        color:#fff;
-    }
+
+#home-sec small {
+    color: #fff;
+}
+
 .icon-round {
-font-size: 30px;
-height: 60px;
-width: 60px;
-line-height: 60px;
-color: #fff;
-border: 2px solid #fff;
-text-align: center;
-border-radius: 50%;
--webkit-transition: 400ms;
--moz-transition: 400ms;
--o-transition: 400ms;
-transition: 400ms;
-cursor: pointer;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -o-transition: 400ms;
+    transition: 400ms;
+    cursor: pointer;
 }
-    .icon-round:hover {
-        background-color:rgb(255, 15, 101);
-    }
+
+.icon-round:hover {
+    background-color: rgb(255, 15, 101);
+}
 
 .icon-round-active {
-      background-color:rgb(255, 15, 101);
+    background-color: rgb(255, 15, 101);
 }
 
     /* =============================================================
