@@ -113,26 +113,16 @@ border-radius: 0px!important;
     height: auto;
     border: 5px solid rgb(255, 15, 101);
     content: url('assets/img/ben.jpg');  
-    cursor: pointer;
+    cursor: default;
 }
 
-/* Cambia la imagen al pasar el cursor */
-#home-sec .main-img:hover {
-    content: url('https://bguerrero85.github.io/portfolio/assets/img/ben.jpg');
-}
-
-/* Segunda imagen (si es necesaria) */
+/* Segunda imagen */
 #home-sec .main-img-2 {
     max-width: 200px;
     height: auto;
     border: 5px solid rgb(255, 15, 101);
-    content: url('https://bguerrero85.github.io/portfolio/assets/img/ben.jpg');  
-    cursor: pointer;
-}
-
-/* Segunda imagen cambia al hover */
-#home-sec .main-img-2:hover {
     content: url('assets/img/ex3m.png');  
+    cursor: default;
 }
 
 #home-sec h1 {
@@ -179,6 +169,7 @@ border-radius: 0px!important;
 .icon-round-active {
     background-color: rgb(255, 15, 101);
 }
+
 
     /* =============================================================
   ABOUT SECTION STYLES
