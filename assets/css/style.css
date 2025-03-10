@@ -118,7 +118,7 @@ border-radius: 0px!important;
 
 /* Cambia la imagen al pasar el cursor */
 #home-sec .main-img:hover {
-    content: url('assets/img/ex3m.png');
+    content: url('https://bguerrero85.github.io/portfolio/assets/img/ben.jpg');
 }
 
 /* Segunda imagen (si es necesaria) */
@@ -126,7 +126,7 @@ border-radius: 0px!important;
     max-width: 200px;
     height: auto;
     border: 5px solid rgb(255, 15, 101);
-    content: url('assets/img/ben.jpg');  
+    content: url('https://bguerrero85.github.io/portfolio/assets/img/ben.jpg');  
     cursor: pointer;
 }
 
